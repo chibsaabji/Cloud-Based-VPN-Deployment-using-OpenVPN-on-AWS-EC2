@@ -80,4 +80,4 @@ You are free to use, modify, and distribute this project with proper attribution
 Contributions, improvements, and suggestions are welcome.
 Feel free to fork the repository and submit a pull request.
 
-## ⭐ If you find this project useful, consider giving it a star!
+### ⭐ If you find this project useful, consider giving it a star!
