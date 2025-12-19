@@ -29,13 +29,7 @@ The primary goal is to set up a secure VPN server that enables encrypted communi
 ●Basic knowledge of Linux commands  
 ●PuTTY installed on Windows  
 ●An OpenVPN client installed on the client machine  
-●An SSH key pair (.pem or .ppk)  
-
-## Installation & configuration steps
-
-●Command references  
-●Client VPN configuration examples  
-●Screenshots  
+●An SSH key pair (.pem or .ppk)    
 
 ## Setup Process
 
