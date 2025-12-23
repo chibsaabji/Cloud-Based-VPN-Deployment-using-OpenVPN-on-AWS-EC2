@@ -15,11 +15,11 @@ The primary goal is to set up a secure VPN server that enables encrypted communi
 
 ## Technologies Used
 
-●Amazon Web Services (AWS EC2)  
+● <div> <div style="background:#fccf03; color:#141414; padding:10px; width:50%;"> Amazon Web Services (AWS EC2)  </div>
 ●Ubuntu Server 24.04 LTS  
 ●OpenVPN  
 ●PuTTY (SSH client for Windows)  
-●OpenVPN Client  
+●OpenVPN Client  </div>
 
 ## Prerequisites
 
