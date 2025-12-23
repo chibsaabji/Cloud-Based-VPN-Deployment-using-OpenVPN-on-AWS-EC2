@@ -1,2 +1,0 @@
-``` # Commands 
-`Login : ubuntu`
