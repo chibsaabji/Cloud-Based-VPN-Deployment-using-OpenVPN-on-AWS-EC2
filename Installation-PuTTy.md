@@ -7,28 +7,29 @@ Link: https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.83-installer
 ---
 
 ## Step 1: Open PuTTY Software in your Desktop
-Download PuTTY from the official website.
+Paste the IP Address from your AWS
 
 ![Open PuTTY](Screenshot-OpenVPN/PuTTy-01.png)
 
 ---
 
-## Step 2: Open PuTTYgen
-PuTTYgen is used to convert the AWS `.pem` key into `.ppk`.
+## Step 2: Create Session in PuTTy
+Add Name of your **Session** and Click on **SSH**.
 
-![PuTTYgen](Screenshot-OpenVPN/PuTTY-02.png)
+![Session](Screenshot-OpenVPN/PuTTY-02.png)
 
 ---
 
-## Step 3: Load AWS PEM Key
-Click **Load** and select your AWS key file (`.pem`).
+## Step 3: Load AWS `.ppk` Key
+Click **SHH** and then **Auth** and select your AWS key file (`.ppk`).
 
 ![Load PEM](Screenshot-OpenVPN/PuTTy-03.png)
 
 ---
 
-## Step 4: Save Private Key as PPK
-Click **Save private key** and store the `.ppk` file securely.
+## Step 4: Click on Save
+Click **Save** and it will save the session for us and we can open it later if we need to change something  
+After this click on **Open**
 
 ![Save PPK](Screenshot-OpenVPN/PuTTy-04.png)
 
