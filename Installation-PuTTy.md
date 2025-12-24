@@ -23,7 +23,7 @@ Add Name of your **Session** and Click on **SSH**.
 ## Step 3: Load AWS `.ppk` Key
 Click **SHH** and then **Auth** and select your AWS key file (`.ppk`).
 
-![Load PEM](Screenshot-OpenVPN/PuTTy-03.png)
+![Load .ppk](Screenshot-OpenVPN/PuTTy-03.png)
 
 ---
 
@@ -31,77 +31,85 @@ Click **SHH** and then **Auth** and select your AWS key file (`.ppk`).
 Click **Save** and it will save the session for us and we can open it later if we need to change something  
 After this click on **Open**
 
-![Save PPK](Screenshot-OpenVPN/PuTTy-04.png)
+![Click Save](Screenshot-OpenVPN/PuTTy-04.png)
 
 ---
 
 ## Step 5: Open PuTTY Session
-Launch **PuTTY**.
+It will Start Connecting PuTTy to AWS  
+Username: `ubuntu`
 
 ![PuTTY Session](Screenshot-OpenVPN/PuTTy-05.png)
 
 ---
 
-## Step 6: Configure Authentication
-Go to: Download PuTTY from the official website.
+## Step 6: Update Ubuntu Server
+We going to use Command `sudo apt update && sudo apt upgrade -y`
 
-![Download PuTTY](Screenshot-OpenVPN/PuTTy-06.png)
-
----
-
-## Step 7: Download PuTTY
-Download PuTTY from the official website.
-
-![Download PuTTY](Screenshot-OpenVPN/PuTTY-07.png)
+![Update Ubuntu](Screenshot-OpenVPN/PuTTy-06.png)
 
 ---
 
-## Step 8: Open PuTTYgen
-PuTTYgen is used to convert the AWS `.pem` key into `.ppk`.
+## Step 7: Processing
+Update is ongoing in Ubuntu Server  
+Command: `clean`
 
-![PuTTYgen](Screenshot-OpenVPN/PuTTy-08.png)
-
----
-
-## Step 9: Load AWS PEM Key
-Click **Load** and select your AWS key file (`.pem`).
-
-![Load PEM](Screenshot-OpenVPN/PuTTy-09.png)
+![Processing](Screenshot-OpenVPN/PuTTY-07.png)
 
 ---
 
-## Step 10: Save Private Key as PPK
-Click **Save private key** and store the `.ppk` file securely.
+## Step 8: SuperUser
+We going to use Command: `sudo su`
 
-![Save PPK](Screenshot-OpenVPN/PuTTy-10.png)
-
----
-
-## Step 11: Open PuTTY Session
-Launch **PuTTY**.
-
-![PuTTY Session](Screenshot-OpenVPN/PuTTy-11.png)
+![Superuser](Screenshot-OpenVPN/PuTTy-08.png)
 
 ---
 
-## Step 12: Configure Authentication
-Go to:Launch **PuTTY**.
+## Step 9: Running OpenVPN Script
+Command: `bash <(curl -fsS https://packages.openvpn.net/as/install.sh) --yes`
 
-![PuTTY Session](Screenshot-OpenVPN/PuTTy-12.png)
-
----
-
-## Step 13: Configure Authentication
-Go to:Launch **PuTTY**.
-
-![PuTTY Session](Screenshot-OpenVPN/PuTTy-13.png)
+![OpenVPN Script](Screenshot-OpenVPN/PuTTy-09.png)
 
 ---
 
-## Step 14: Configure Authentication
-Go to:Launch **PuTTY**.
+## Step 10: Installing OpenVPN Script
+Installing OpenVPN and Installing Process going on !
 
-![PuTTY Session](Screenshot-OpenVPN/PuTTy-14.png)
+![Installing OpenVPN](Screenshot-OpenVPN/PuTTy-10.png)
 
+---
 
+## Step 11: Installing OpenVPN Script
+Installing OpenVPN and Installing Process going on !
+
+![Installing OpenVPN](Screenshot-OpenVPN/PuTTy-11.png)
+
+---
+
+## Step 12: Installing OpenVPN Script
+Installing OpenVPN and Installing Process going on !
+
+![Installing OpenVPN](Screenshot-OpenVPN/PuTTy-12.png)
+
+---
+
+## Step 13: Installing OpenVPN Script
+Installing OpenVPN and Installing Process going on !
+
+![Installing OpenVPN](Screenshot-OpenVPN/PuTTy-13.png)
+
+---
+
+## Step 14: Configure Authentication Access Server 3.0.2
++++++++++++++++++++++++++++++++++++++++++++++++  
+Access Server 3.0.2 has been successfully installed in /usr/local/openvpn_as  
+Configuration log file has been written to /usr/local/openvpn_as/init.log  
+
+Access Server Web UIs are available here:  
+Admin UI: https://198.51.100.130:943/admin  
+Client UI: https://198.51.100.130:943   
+To login please use the "openvpn" account with "RR4ImyhwbFFq" password.  
+(password can be changed on Admin UI)   
++++++++++++++++++++++++++++++++++++++++++++++++
+![Access Server](Screenshot-OpenVPN/PuTTy-14.png)
 
